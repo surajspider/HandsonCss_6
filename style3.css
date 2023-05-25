@@ -97,7 +97,7 @@
 .wheel img {
     width: 89px;
     height: 89px;
-    animation: wheel 1s linear infinite;
+    animation: wheel 0.8s linear infinite;
 }
 
 .rwheel {
