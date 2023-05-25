@@ -88,15 +88,15 @@
 
 .wheel {
     left: 32.9%;
-    bottom: 260px;
+    bottom: 35.3%;
     transform: translateX(-50%);
     position: absolute;
     z-index: 2;
 }
 
 .wheel img {
-    width: 89px;
-    height: 89px;
+    width: 5.5rem;
+    height: 5.5rem;
     animation: wheel 0.8s linear infinite;
 }
 
@@ -106,7 +106,7 @@
 }
 
 .fwheel {
-    left: 308px;
+    left: 19.25rem;
     position: absolute;
 }
 
