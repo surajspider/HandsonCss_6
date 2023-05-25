@@ -66,10 +66,15 @@
 }
 
 .car {
+    width: 31rem;
     position: absolute;
     left: 30%;
     top: 50%;
     animation: car 0.7s infinite;
+}
+
+.car img {
+    width: 100%;
 }
 
 @keyframes car {
@@ -88,7 +93,7 @@
 
 .wheel {
     left: 32.9%;
-    bottom: 35.3%;
+    bottom: 35%;
     transform: translateX(-50%);
     position: absolute;
     z-index: 2;
@@ -106,7 +111,7 @@
 }
 
 .fwheel {
-    left: 19.25rem;
+    left: 19rem;
     position: absolute;
 }
 
