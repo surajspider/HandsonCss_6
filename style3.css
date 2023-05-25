@@ -56,7 +56,7 @@
     background-repeat: repeat-x;
     position: absolute;
     bottom: 0;
-    animation: road 20s linear infinite;
+    animation: road 3s linear infinite;
 }
 
 @keyframes road {
@@ -87,17 +87,27 @@
 }
 
 .wheel {
+    left: 32.9%;
+    bottom: 260px;
+    transform: translateX(-50%);
     position: absolute;
-    left: 33%;
-    bottom: 23.2%;
-    animation: wheel 1.5s linear infinite;
+    z-index: 2;
 }
 
-.wheel2 {
+.wheel img {
+    width: 89px;
+    height: 89px;
+    animation: wheel 1s linear infinite;
+}
+
+.rwheel {
+    left: 0;
     position: absolute;
-    left: 53.6%;
-    bottom: 23.2%;
-    animation: wheel 1.5s linear infinite;
+}
+
+.fwheel {
+    left: 308px;
+    position: absolute;
 }
 
 @keyframes wheel {
@@ -105,6 +115,7 @@
         transform: rotate(360deg);
     }
 }
+
 
 .flag {
     position: absolute;
