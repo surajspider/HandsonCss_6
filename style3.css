@@ -92,8 +92,8 @@
 }
 
 .wheel {
-    left: 32.9%;
-    bottom: 35%;
+    left: 9%;
+    bottom: 47%;
     transform: translateX(-50%);
     position: absolute;
     z-index: 2;
